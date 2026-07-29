@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QAgent — 让 AI 智能体成为每个员工的「数字同事」</title>
+<meta name="description" content="QAgent 企业智能体解决方案：随身 AI 助手、企业级理解力、自主掌控。把每个员工变成 AI 时代的超级个体。">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== 导航 ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <img src="logo.svg" alt="QAgent Logo" class="brand-logo">
+      <span class="brand-name">QAgent</span>
+      <span class="brand-tag" data-i18n="brand.tag">企业智能体</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#values" data-i18n="nav.values">核心价值</a>
+      <a href="#product" data-i18n="nav.product">产品架构</a>
+      <a href="#deploy" data-i18n="nav.deploy">部署方式</a>
+      <a href="#pricing" data-i18n="nav.pricing">价格</a>
+      <a href="#cases" data-i18n="nav.cases">应用场景</a>
+    </nav>
+    <button class="lang-switch mono" id="langSwitch" aria-label="切换语言">EN</button>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost" data-i18n="nav.consult">产品咨询</a>
+      <a href="#contact" class="btn btn-solid" data-i18n="nav.trial">免费试用</a>
+    </div>
+    <button class="nav-burger" id="burger" aria-label="菜单"><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="top">
+  <div class="hero-grid-lines" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="kicker reveal" data-i18n="hero.kicker"><span class="kicker-dot"></span>ENTERPRISE AGENT SOLUTION · 企业智能体解决方案</p>
+      <h1 class="hero-title">
+        <span class="reveal d1" data-i18n="hero.title1">让 AI 智能体成为</span>
+        <span class="reveal d2" data-i18n="hero.title2">每个员工的</span>
+        <span class="reveal d3" data-i18n="hero.title3"><em>「数字同事」</em></span>
+      </h1>
+      <p class="hero-sub reveal d4" data-i18n="hero.sub">把每个员工变成 AI 时代的「超级个体」，<br>让企业把 AI 能力<strong>安全、可见、可控</strong>地变成自己的数字资产。</p>
+      <div class="hero-actions reveal d5">
+        <a href="#contact" class="btn btn-solid btn-lg" data-i18n="hero.action1">申请 15 天免费试用</a>
+        <a href="#values" class="btn btn-line btn-lg" data-i18n="hero.action2">了解核心价值 <span class="arrow">→</span></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal d4">
+      <figure class="hero-figure">
+        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minimalist%20premium%20editorial%203D%20render%2C%20a%20small%20glowing%20warm%20amber%20spherical%20AI%20robot%20companion%20with%20soft%20friendly%20face%20hovering%20beside%20an%20open%20laptop%20on%20a%20clean%20office%20desk%2C%20warm%20cream%20paper%20background%2C%20soft%20studio%20lighting%2C%20subtle%20grain%2C%20high-end%20tech%20product%20photography%2C%20muted%20ink%20black%20and%20vermilion%20orange%20accent%20palette&image_size=portrait_4_3" alt="QAgent 数字同事" data-i18n-alt="hero.imgAlt">
+        <figcaption class="hero-caption" data-i18n="hero.caption">
+          <span class="mono">FIG.01</span> 你的下一位同事，可能已经上线
+        </figcaption>
+      </figure>
+      <div class="hero-diamonds" aria-hidden="true">
+        <span class="hd hd-red"></span>
+        <span class="hd hd-green"></span>
+        <span class="hd hd-blue"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 三大核心价值 ===== -->
+<section class="section values" id="values">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-index mono">SECTION 01</p>
+      <h2 class="sec-title" data-i18n="values.title">三个核心价值<br><span class="sec-sub">从员工到企业，全面释放 AI 的生产力</span></h2>
+    </div>
+    <div class="value-cards">
+      <article class="value-card reveal">
+        <div class="value-num mono">01</div>
+        <h3 data-i18n="v1.h3">随身 AI 助手</h3>
+        <p class="value-desc" data-i18n="v1.desc">每个员工都拥有，极低使用门槛。像跟同事聊天一样自然，打开电脑即可使用。</p>
+        <ul>
+          <li data-i18n="v1.li1">起草邮件、合同、报告、PPT 大纲</li>
+          <li data-i18n="v1.li2">会议纪要自动整理成行动清单</li>
+          <li data-i18n="v1.li3">解释代码、检查公式、翻译文档</li>
+          <li data-i18n="v1.li4">重复性数据查询与格式转换</li>
+        </ul>
+        <p class="value-foot" data-i18n="v1.foot">零门槛上手 — 不用学提示词，对话即可唤醒技能</p>
+      </article>
+      <article class="value-card reveal d1">
+        <div class="value-num mono">02</div>
+        <h3 data-i18n="v2.h3">企业级理解力</h3>
+        <p class="value-desc" data-i18n="v2.desc">让 AI 真正理解您的企业。员工自己创作 AI 技能，把个人经验沉淀为企业能力。</p>
+        <ul>
+          <li data-i18n="v2.li1">一次定好技能，全员复用</li>
+          <li data-i18n="v2.li2">标准化技能，新人产出专家水平</li>
+          <li data-i18n="v2.li3">技能归企业所有，人走能力留</li>
+          <li data-i18n="v2.li4">财务 / 人力 / 销售场景即装即用</li>
+        </ul>
+        <p class="value-foot" data-i18n="v2.foot">把「老员工的脑子」变成「企业的资产」</p>
+      </article>
+      <article class="value-card reveal d2">
+        <div class="value-num mono">03</div>
+        <h3 data-i18n="v3.h3">自主掌控</h3>
+        <p class="value-desc" data-i18n="v3.desc">从数据到技能资产全程自主掌控，安全合规可审计，IT 安全感拉满。</p>
+        <ul>
+          <li data-i18n="v3.li1">私有化部署，数据不出内网</li>
+          <li data-i18n="v3.li2">权限管理，谁能用什么一目了然</li>
+          <li data-i18n="v3.li3">关键操作全程留痕，可导出审计</li>
+          <li data-i18n="v3.li4">按席位订阅，成本透明可控</li>
+        </ul>
+        <p class="value-foot" data-i18n="v3.foot">AI 使用从「看不见」变成「可掌控」</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 对比：普通 AI 工具 vs QAgent ===== -->
+<section class="section compare">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-index mono">SECTION 02</p>
+      <h2 class="sec-title" data-i18n="compare.title">让 AI 真正理解您的企业<br><span class="sec-sub">普通 AI 工具 vs QAgent 智能体技能</span></h2>
+    </div>
+    <div class="compare-table reveal">
+      <div class="compare-row compare-head">
+        <div data-i18n="cmp.h1">对比维度</div><div data-i18n="cmp.h2">普通 AI 工具</div><div class="hl" data-i18n="cmp.h3">QAgent 智能体技能</div>
+      </div>
+      <div class="compare-row">
+        <div class="mono" data-i18n="cmp.r1a">重复描述</div><div class="bad" data-i18n="cmp.r1b">每次都要重复描述背景</div><div class="good" data-i18n="cmp.r1c">一次定好技能，全员复用</div>
+      </div>
+      <div class="compare-row">
+        <div class="mono" data-i18n="cmp.r2a">质量不一</div><div class="bad" data-i18n="cmp.r2b">提示词质量参差不齐</div><div class="good" data-i18n="cmp.r2c">标准化技能，新人也是专家水平</div>
+      </div>
+      <div class="compare-row">
+        <div class="mono" data-i18n="cmp.r3a">离职丢失</div><div class="bad" data-i18n="cmp.r3b">员工离职，工作方式随之消失</div><div class="good" data-i18n="cmp.r3c">技能归企业所有，人走能力还在</div>
+      </div>
+    </div>
+    <div class="scene-chips reveal d1">
+      <div class="chip" data-i18n="chip.1"><b>财务部</b>「差旅报销审核」技能，新员工按老会计标准审核</div>
+      <div class="chip" data-i18n="chip.2"><b>人力部</b>「招聘 JD 生成」技能，填几个关键词即发布</div>
+      <div class="chip" data-i18n="chip.3"><b>销售部</b>「客户邮件回复」技能，沟通话术统一规范</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 产品架构 ===== -->
+<section class="section product" id="product">
+  <div class="container">
+    <div class="sec-head light">
+      <p class="sec-index mono">SECTION 03</p>
+      <h2 class="sec-title" data-i18n="product.title">产品架构：客户端 + 管理端<br><span class="sec-sub">QAgent Desktop 员工端 / QAgent SaaS 企业管理端</span></h2>
+    </div>
+    <div class="product-grid">
+      <article class="product-panel reveal">
+        <div class="panel-top">
+          <span class="mono panel-label">QAGENT DESKTOP</span>
+          <h3 data-i18n="p1.h3">员工端 · 桌面应用</h3>
+          <p data-i18n="p1.p">装在员工电脑上的桌面应用，开机即用，贴身工作助手。</p>
+        </div>
+        <ol class="feature-list">
+          <li data-i18n="p1.f1"><b>自然语言对话</b>像跟同事聊天一样问问题</li>
+          <li data-i18n="p1.f2"><b>长期记忆</b>用得越久，越懂你的偏好和习惯</li>
+          <li data-i18n="p1.f3"><b>工作区文件浏览</b>AI 方案直接写入工作目录，免复制粘贴</li>
+          <li data-i18n="p1.f4"><b>多模型切换</b>简单问题用便宜模型，复杂任务用强模型</li>
+          <li data-i18n="p1.f5"><b>技能工作室</b>把知识经验转变为企业技能资产</li>
+          <li data-i18n="p1.f6"><b>多会话管理</b>任务分开聊，可搜索、可归档、可标注</li>
+          <li data-i18n="p1.f7"><b>技能商店</b>一键安装企业已发布技能，像装 App 一样</li>
+        </ol>
+        <p class="panel-foot" data-i18n="p1.foot">使用感受：从「AI 工具」变成「AI 同事」</p>
+      </article>
+      <article class="product-panel alt reveal d1">
+        <div class="panel-top">
+          <span class="mono panel-label">QAGENT SAAS</span>
+          <h3 data-i18n="p2.h3">管理端 · Web 控制台</h3>
+          <p data-i18n="p2.p">一个控制台，统一管理全公司的 AI 使用。</p>
+        </div>
+        <ol class="feature-list">
+          <li data-i18n="p2.f1"><b>企业管理</b>5 分钟创建租户，生成企业码即注册</li>
+          <li data-i18n="p2.f2"><b>成员管理</b>一键邀请、暂停、删除；超员自动提醒</li>
+          <li data-i18n="p2.f3"><b>订阅与席位</b>按年订阅，席位灵活调整，到期提醒</li>
+          <li data-i18n="p2.f4"><b>技能管理</b>审核自建技能，启用 / 关闭官方技能</li>
+          <li data-i18n="p2.f5"><b>使用概况</b>部门与员工活跃度、热门技能一目了然</li>
+          <li data-i18n="p2.f6"><b>数据安全</b>租户物理隔离，平台不可越权访问</li>
+          <li data-i18n="p2.f7"><b>审计日志</b>关键操作全程留痕，可导出合规审查</li>
+        </ol>
+        <p class="panel-foot" data-i18n="p2.foot">管理感受：既不阻碍员工，又守住安全底线</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 部署方式 ===== -->
+<section class="section deploy" id="deploy">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-index mono">SECTION 04</p>
+      <h2 class="sec-title" data-i18n="deploy.title">两种部署方式<br><span class="sec-sub">根据企业规模、安全要求和预算，灵活选择部署路径</span></h2>
+    </div>
+    <div class="deploy-grid">
+      <article class="deploy-card reveal">
+        <div class="deploy-tag mono" data-i18n="d1.tag">方式一 · SAAS</div>
+        <h3 data-i18n="d1.h3">公开 SaaS 版本</h3>
+        <p class="deploy-fit" data-i18n="d1.fit">适合：中小企业、初创团队、想快速试点的部门</p>
+        <ul>
+          <li data-i18n="d1.li1">平台已部署好，开通账号即可使用</li>
+          <li data-i18n="d1.li2">账号、权限、技能、审计全套功能开箱即用</li>
+          <li data-i18n="d1.li3">按席位按年付费，无需自建基础设施</li>
+          <li data-i18n="d1.li4">模型由企业自行采购并配置到 Desktop</li>
+        </ul>
+        <a href="#contact" class="btn btn-line" data-i18n="d1.btn">申请 15 天免费试用</a>
+      </article>
+      <article class="deploy-card dark reveal d1">
+        <div class="deploy-tag mono" data-i18n="d2.tag">方式二 · PRIVATE</div>
+        <h3 data-i18n="d2.h3">私有定制版</h3>
+        <p class="deploy-fit" data-i18n="d2.fit">适合：国企、政府、金融、对数据敏感的中大型企业</p>
+        <ul>
+          <li data-i18n="d2.li1">整套系统部署在企业内网或私有云</li>
+          <li data-i18n="d2.li2">数据全程不出域，满足等保合规要求</li>
+          <li data-i18n="d2.li3">支持对接内部大模型、知识库、数据源</li>
+          <li data-i18n="d2.li4">包含实施、培训、运维等专属服务</li>
+        </ul>
+        <a href="#contact" class="btn btn-solid" data-i18n="d2.btn">申请 1 个月 POC</a>
+      </article>
+    </div>
+    <p class="deploy-note reveal d2" data-i18n="deploy.note"><span class="mono">NOTE</span> QAgent 不提供模型服务 — 您可选择：公有云模型（阿里云百炼 / 火山引擎 / 智谱 / DeepSeek）或部署私有模型，避免供应商锁定。</p>
+  </div>
+</section>
+
+<!-- ===== 价格 ===== -->
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-index mono">SECTION 05</p>
+      <h2 class="sec-title" data-i18n="pricing.title">SaaS 年度预算参考<br><span class="sec-sub">按席位按年付费，预算透明可控；以下为平台订阅费，不含模型使用费</span></h2>
+    </div>
+    <div class="price-cards">
+      <article class="price-card reveal">
+        <h3 data-i18n="pr1.h3">初创版</h3>
+        <p class="price-fit" data-i18n="pr1.fit">12 人团队</p>
+        <div class="price-num" data-i18n="pr1.num"><span class="yen">¥</span>4,220<span class="per">/年 官方指导价</span></div>
+        <p class="price-deal" data-i18n="pr1.deal">建议成交价 <b>¥3,376</b></p>
+        <a href="#contact" class="btn btn-line btn-block" data-i18n="pr.btn">开始试用</a>
+      </article>
+      <article class="price-card hot reveal d1">
+        <div class="hot-tag mono" data-i18n="pr.hot">最受欢迎</div>
+        <h3 data-i18n="pr2.h3">成长版</h3>
+        <p class="price-fit" data-i18n="pr2.fit">30 – 50 人团队</p>
+        <div class="price-num" data-i18n="pr2.num"><span class="yen">¥</span>9,980<span class="per">/年起 官方指导价</span></div>
+        <p class="price-deal" data-i18n="pr2.deal">建议成交价 <b>¥7,980 起</b></p>
+        <a href="#contact" class="btn btn-solid btn-block" data-i18n="pr.btn">开始试用</a>
+      </article>
+      <article class="price-card reveal d2">
+        <h3 data-i18n="pr3.h3">专业版</h3>
+        <p class="price-fit" data-i18n="pr3.fit">80 – 150 人企业</p>
+        <div class="price-num" data-i18n="pr3.num"><span class="yen">¥</span>25,200<span class="per">/年起 官方指导价</span></div>
+        <p class="price-deal" data-i18n="pr3.deal">建议成交价 <b>¥20,160 起</b></p>
+        <a href="#contact" class="btn btn-line btn-block" data-i18n="pr.btn">开始试用</a>
+      </article>
+      <article class="price-card dark reveal d3">
+        <h3 data-i18n="pr4.h3">私有定制版</h3>
+        <p class="price-fit" data-i18n="pr4.fit">中大型企业 / 政企</p>
+        <div class="price-num text" data-i18n="pr4.num">按需报价</div>
+        <p class="price-deal" data-i18n="pr4.deal">含实施、培训、运维专属服务</p>
+        <a href="#contact" class="btn btn-solid btn-block" data-i18n="pr4.btn">联系顾问</a>
+      </article>
+    </div>
+    <div class="price-extras reveal">
+      <p class="mono extras-label" data-i18n="extras.label">附加服务 · 按需选购</p>
+      <div class="extras-items">
+        <div data-i18n="extras.1"><b>技能定制开发</b>工程师按业务场景定制 AI 技能</div>
+        <div data-i18n="extras.2"><b>使用培训</b>管理员 / 创作者 / 普通员工培训</div>
+        <div data-i18n="extras.3"><b>数据接入</b>对接企业内部 ERP、CRM、知识库</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 应用场景 ===== -->
+<section class="section cases" id="cases">
+  <div class="container">
+    <div class="sec-head light">
+      <p class="sec-index mono">SECTION 06</p>
+      <h2 class="sec-title" data-i18n="cases.title">典型应用场景<br><span class="sec-sub">从「少数人在用」到「全员在用」</span></h2>
+    </div>
+    <div class="case-list">
+      <article class="case-row reveal">
+        <div class="case-dept"><span class="mono">SALES</span><h3 data-i18n="c1.h3">销售部门</h3></div>
+        <div class="case-body">
+          <p class="case-pain" data-i18n="c1.pain">痛点：新人熟悉产品慢、客户沟通话术不统一</p>
+          <p class="case-do" data-i18n="c1.do">做法：老销售把成功经验写成「客户沟通技能」</p>
+        </div>
+        <div class="case-result"><b>50%</b><span data-i18n="c1.rs">新人上手时间缩短</span></div>
+      </article>
+      <article class="case-row reveal">
+        <div class="case-dept"><span class="mono">SUPPORT</span><h3 data-i18n="c2.h3">客户服务</h3></div>
+        <div class="case-body">
+          <p class="case-pain" data-i18n="c2.pain">痛点：话术质量参差，新人处理复杂问题困难</p>
+          <p class="case-do" data-i18n="c2.do">做法：常见问题与标准答案做成「客服助手技能」</p>
+        </div>
+        <div class="case-result"><b>+30%</b><span data-i18n="c2.rs">首次解决率提升</span></div>
+      </article>
+      <article class="case-row reveal">
+        <div class="case-dept"><span class="mono">FINANCE</span><h3 data-i18n="c3.h3">财务部门</h3></div>
+        <div class="case-body">
+          <p class="case-pain" data-i18n="c3.pain">痛点：报销单、合同审核耗时长，标准不统一</p>
+          <p class="case-do" data-i18n="c3.do">做法：财务主管把审核要点做成「智能审核技能」</p>
+        </div>
+        <div class="case-result"><b>-60%</b><span data-i18n="c3.rs">初审工作量减少</span></div>
+      </article>
+      <article class="case-row reveal">
+        <div class="case-dept"><span class="mono">R&amp;D</span><h3 data-i18n="c4.h3">研发团队</h3></div>
+        <div class="case-body">
+          <p class="case-pain" data-i18n="c4.pain">痛点：核心经验在老员工脑子里，新人反复问</p>
+          <p class="case-do" data-i18n="c4.do">做法：架构设计、代码规范、调试经验做成技能库</p>
+        </div>
+        <div class="case-result"><b data-i18n="c4.rb">0 流失</b><span data-i18n="c4.rs">知识沉淀为团队资产</span></div>
+      </article>
+      <article class="case-row reveal">
+        <div class="case-dept"><span class="mono">HR</span><h3 data-i18n="c5.h3">人力部门</h3></div>
+        <div class="case-body">
+          <p class="case-pain" data-i18n="c5.pain">痛点：每次招聘重新写 JD，面试问题临时凑</p>
+          <p class="case-do" data-i18n="c5.do">做法：岗位模板、面试题库做成技能库</p>
+        </div>
+        <div class="case-result"><b data-i18n="c5.rb">10 分钟</b><span data-i18n="c5.rs">JD 撰写从 2 小时缩短</span></div>
+      </article>
+    </div>
+    <div class="adopt-steps reveal">
+      <p class="mono extras-label" data-i18n="adopt.label">全员普及 3 步</p>
+      <div class="steps">
+        <div data-i18n="adopt.s1"><i class="mono">①</i>桌面端零门槛使用</div>
+        <div class="step-arrow">→</div>
+        <div data-i18n="adopt.s2"><i class="mono">②</i>技能复用降低门槛</div>
+        <div class="step-arrow">→</div>
+        <div data-i18n="adopt.s3"><i class="mono">③</i>培训与工作流模板</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 为什么选择 QAgent ===== -->
+<section class="section why">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-index mono">SECTION 07</p>
+      <h2 class="sec-title" data-i18n="why.title">为什么选择 QAgent</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><span class="mono">01</span><h4 data-i18n="w1.h4">产品成熟</h4><p data-i18n="w1.p">基于 Hermes Agent 多年代理框架，企业级增强已完成 v1.0 评审</p></div>
+      <div class="why-item reveal d1"><span class="mono">02</span><h4 data-i18n="w2.h4">路径灵活</h4><p data-i18n="w2.p">SaaS 与私有定制两种方式，平滑演进，可逐步升级</p></div>
+      <div class="why-item reveal d2"><span class="mono">03</span><h4 data-i18n="w3.h4">场景丰富</h4><p data-i18n="w3.p">教育、政务、企业多行业落地案例，可参考可复制</p></div>
+      <div class="why-item reveal"><span class="mono">04</span><h4 data-i18n="w4.h4">模型开放</h4><p data-i18n="w4.p">模型由您自主选择和采购，避免供应商锁定</p></div>
+      <div class="why-item reveal d1"><span class="mono">05</span><h4 data-i18n="w5.h4">生态开放</h4><p data-i18n="w5.p">支持主流 LLM：公有云、开源、私有部署模型</p></div>
+      <div class="why-item reveal d2"><span class="mono">06</span><h4 data-i18n="w6.h4">服务专业</h4><p data-i18n="w6.p">从咨询、试点、培训到持续运营，端到端支持</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section contact" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-copy reveal">
+      <p class="sec-index mono">GET STARTED</p>
+      <h2 class="contact-title" data-i18n="contact.title">让 AI 成为贵司的<br><em>数字资产</em></h2>
+      <p class="contact-sub" data-i18n="contact.sub">建议先安排一次需求沟通会议，由方案顾问基于贵司实际情况，给出具体的部署建议与报价。</p>
+      <ul class="contact-list">
+        <li data-i18n="contact.l1"><b>产品咨询</b>获取针对贵企业的诊断与建议</li>
+        <li data-i18n="contact.l2"><b>试用申请</b>15 天 SaaS 免费试用 / 1 个月私有定制 POC</li>
+        <li data-i18n="contact.l3"><b>方案报价</b>基于贵司规模和场景定制报价</li>
+      </ul>
+    </div>
+    <div class="contact-channels reveal d1">
+      <div class="channel-card">
+        <span class="mono channel-label" data-i18n="ch1.label">WECHAT · 微信咨询</span>
+        <p class="channel-desc" data-i18n="ch1.desc">搜索添加，备注「QAgent」</p>
+        <div class="channel-value">
+          <b>yhc-startup</b>
+          <button class="btn btn-line btn-sm copy-btn" data-copy="yhc-startup" data-tip-key="wechat" data-i18n="ch.btn">复制</button>
+        </div>
+      </div>
+      <div class="channel-card">
+        <span class="mono channel-label" data-i18n="ch2.label">EMAIL · 邮件沟通</span>
+        <p class="channel-desc" data-i18n="ch2.desc">发送需求与场景，1 个工作日内回复</p>
+        <div class="channel-value">
+          <b>ceo@quseit.com</b>
+          <button class="btn btn-line btn-sm copy-btn" data-copy="ceo@quseit.com" data-tip-key="email" data-i18n="ch.btn">复制</button>
+        </div>
+      </div>
+      <p class="channel-tip" id="copyTip" data-i18n="ch.tip">产品咨询 / 15 天 SaaS 免费试用 / 私有定制 POC，均可通过以上方式联系</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="logo.svg" alt="QAgent Logo" class="brand-logo">
+      <div>
+        <b>QAgent</b>
+        <p data-i18n="footer.slogan">让 AI 智能体成为每个员工的「数字同事」</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#values" data-i18n="nav.values">核心价值</a>
+      <a href="#product" data-i18n="nav.product">产品架构</a>
+      <a href="#deploy" data-i18n="nav.deploy">部署方式</a>
+      <a href="#pricing" data-i18n="nav.pricing">价格</a>
+      <a href="#cases" data-i18n="nav.cases">应用场景</a>
+    </div>
+    <p class="footer-copy mono">© 2026 QAGENT · ENTERPRISE AGENT SOLUTION</p>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
