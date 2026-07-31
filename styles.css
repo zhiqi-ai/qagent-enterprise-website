@@ -6,8 +6,8 @@
   --ink-2:#4A443A;
   --ink-3:#8A8172;
   --line:#D8D1C2;
-  --accent:#E8890C;
-  --accent-soft:#FCEBD3;
+  --accent:#1C64D9;
+  --accent-soft:#DCE7FA;
   --c-red:#FF5252;
   --c-green:#43C465;
   --c-blue:#2D9CDB;
@@ -100,7 +100,7 @@ a{color:inherit;text-decoration:none}
   display:flex;align-items:center;gap:10px;margin-bottom:28px;
 }
 .kicker-dot{width:9px;height:9px;background:var(--accent);border-radius:2px;transform:rotate(45deg);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(232,137,12,.4)}50%{box-shadow:0 0 0 8px rgba(232,137,12,0)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(28,100,217,.4)}50%{box-shadow:0 0 0 8px rgba(28,100,217,0)}}
 .hero-title{
   font-family:var(--serif);font-weight:900;
   font-size:clamp(40px,5.4vw,72px);line-height:1.22;letter-spacing:.01em;
@@ -162,7 +162,7 @@ a{color:inherit;text-decoration:none}
 .compare-row>div{padding:18px 24px;font-size:14.5px}
 .compare-row>div+div{border-left:1px solid var(--line)}
 .compare-head{background:var(--ink);color:var(--paper);font-weight:700}
-.compare-head .hl{color:#F9B95C}
+.compare-head .hl{color:#8FB2F2}
 .compare-row .bad{color:var(--ink-3)}
 .compare-row .good{font-weight:700;position:relative;padding-left:38px}
 .compare-row .good::before{content:"✓";position:absolute;left:20px;color:var(--accent);font-weight:900}
@@ -230,6 +230,11 @@ a{color:inherit;text-decoration:none}
 .price-card h3{font-family:var(--serif);font-weight:900;font-size:22px}
 .price-fit{font-size:13px;color:var(--ink-3);margin:4px 0 22px;flex:1}
 .price-card.dark .price-fit{color:#9a927f}
+.price-num{font-family:var(--serif);font-weight:900;font-size:24px;color:var(--accent);margin-bottom:20px}
+.price-unit{font-size:13px;font-weight:400;color:var(--ink-3);margin-left:2px}
+.price-card.dark .price-num{color:#8FB2F2}
+.price-card.dark .price-unit{color:#9a927f}
+.price-note{font-size:12.5px;color:#9a927f;margin:-12px 0 20px}
 .price-extras{margin-top:40px;border-top:1.5px solid var(--ink);padding-top:28px}
 .extras-label{font-size:11px;letter-spacing:.18em;color:var(--ink-3);margin-bottom:16px}
 .extras-items{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
