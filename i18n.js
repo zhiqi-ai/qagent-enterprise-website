@@ -10,8 +10,7 @@
     'nav.deploy': 'Deployment',
     'nav.pricing': 'Pricing',
     'nav.cases': 'Use Cases',
-    'nav.consult': 'Consult',
-    'nav.trial': 'Free Trial',
+    'nav.trial': 'Request Demo',
 
     'hero.kicker': '<span class="kicker-dot"></span>ENTERPRISE AGENT SOLUTION',
     'hero.title1': 'Make AI Agents',
