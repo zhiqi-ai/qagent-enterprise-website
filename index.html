@@ -30,7 +30,7 @@
     </nav>
     <button class="lang-switch mono" id="langSwitch" aria-label="切换语言">EN</button>
     <div class="nav-cta">
-      <a href="https://iwwtpmp09eo.feishu.cn/share/base/form/shrcnGSnBhjH4Q6jxZCGZ9BE2Ac" target="_blank" rel="noopener" class="btn btn-solid" data-i18n="nav.trial">请求演示</a>
+      <a href="#" id="demoOpen" class="btn btn-solid" data-i18n="nav.trial">请求演示</a>
     </div>
     <button class="nav-burger" id="burger" aria-label="菜单"><span></span><span></span></button>
   </div>
@@ -410,6 +410,13 @@
     <p class="footer-copy mono">© 2026 QUSEIT · ENTERPRISE AGENT SOLUTION</p>
   </div>
 </footer>
+
+<!-- ===== 请求演示模态框 ===== -->
+<div class="demo-modal" id="demoModal" aria-hidden="true">
+  <div class="demo-dialog" role="dialog" aria-modal="true" aria-label="请求演示">
+    <iframe class="demo-frame" id="demoFrame" data-src="https://iwwtpmp09eo.feishu.cn/share/base/form/shrcnGSnBhjH4Q6jxZCGZ9BE2Ac" title="请求演示表单"></iframe>
+  </div>
+</div>
 
 <script src="i18n.js"></script>
 <script src="main.js"></script>
