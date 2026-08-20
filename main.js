@@ -51,12 +51,12 @@ document.querySelectorAll('.case-result b').forEach(b => {
 // 请求演示模态框（iframe 内嵌表单，不离开官网）
 const demoModal = document.getElementById('demoModal');
 const demoFrame = document.getElementById('demoFrame');
-document.getElementById('demoOpen').addEventListener('click', e => {
+document.querySelectorAll('.demo-open').forEach(btn => btn.addEventListener('click', e => {
   e.preventDefault();
   if (!demoFrame.src) demoFrame.src = demoFrame.dataset.src; // 首次打开才加载
   demoModal.classList.add('open');
   document.body.style.overflow = 'hidden';
-});
+}));
 const closeDemo = () => {
   demoModal.classList.remove('open');
   document.body.style.overflow = '';
